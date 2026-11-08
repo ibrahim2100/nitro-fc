@@ -1,0 +1,56 @@
+Nitro Proprietary Source-Available License
+==========================================
+
+Copyright (c) 2026 Ibrahim Al-Rahn and the Nitro team. All rights reserved.
+
+(النسخة العربية الملخّصة بالأسفل. عند أي تعارض يُعتمد النص الإنجليزي.)
+
+1. WHAT YOU MAY DO
+   You may read the source code in this repository, and use the software built
+   from it for your own personal, non-commercial use. GitHub's Terms of Service
+   additionally allow you to view and fork this repository on GitHub for the sole
+   purpose of viewing it and proposing changes back to us.
+
+2. WHAT YOU MAY NOT DO WITHOUT OUR PRIOR WRITTEN PERMISSION
+   - modify, adapt, translate or create derivative works of the code;
+   - copy, redistribute, republish or host the code or builds of it;
+   - sell, sublicense, rent or otherwise commercialise it;
+   - remove or alter this license or the copyright notices;
+   - use the Nitro name, logo or branding for another project.
+   To ask for permission, contact the Nitro team through the GitHub account that
+   owns this repository (github.com/ibrahim2100). Permission is granted only if
+   given explicitly, in writing, by the copyright holders.
+
+3. EXCEPTION FOR THE ORIGINAL PALETOOLS TEAM
+   The authors of Paletools (Paleta and the Paletools team) are hereby granted a
+   perpetual, irrevocable, worldwide, royalty-free license to use, copy, modify,
+   merge, publish, distribute, sublicense and incorporate this code, in whole or
+   in part, into Paletools or any other project of theirs, with no need to ask us
+   first. Credit to Nitro is appreciated but not required.
+
+4. THIRD-PARTY CODE
+   This license covers only the original code written for this repository.
+   Paletools is not part of this repository and is not redistributed here; it
+   remains under its authors' own terms. Nitro is not affiliated with, endorsed
+   by or sponsored by Electronic Arts Inc., EA SPORTS FC, Paletools, fut.gg,
+   FUTBIN or FUTWIZ. All trademarks belong to their owners.
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. USING TOOLS
+   THAT INTERACT WITH THE EA FC WEB APP MAY LEAD TO ACTION AGAINST YOUR ACCOUNT
+   BY EA; YOU USE THEM AT YOUR OWN RISK. IN NO EVENT SHALL THE AUTHORS BE LIABLE
+   FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+ملخّص بالعربي
+-------------
+- المشروع **ملك لنا** وكل الحقوق محفوظة.
+- مسموح لك: قراءة الكود، واستخدام الأداة لنفسك استخداماً شخصياً غير تجاري.
+- ممنوع بدون إذن كتابي مسبق منا: التعديل، النسخ وإعادة النشر، البيع أو الاستخدام
+  التجاري، حذف الترخيص، أو استخدام اسم وشعار نيترو لمشروع آخر. للتواصل: حساب
+  GitHub مالك المستودع (github.com/ibrahim2100).
+- **استثناء:** فريق Paletools الأصلي (Paleta وفريقه) مسموح لهم يأخذون الكود
+  ويعدّلونه ويدمجونه في Paletools أو أي مشروع لهم متى أرادوا، بدون ما يطلبون إذن.
+- كود Paletools نفسه ليس جزءاً من المستودع وله شروط أصحابه.
+- لا ضمان، والاستخدام على مسؤوليتك (قد تتخذ EA إجراءات ضد الحساب).
