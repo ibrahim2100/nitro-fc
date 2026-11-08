@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+# Paletools' own code is never redistributed: it is downloaded and built locally by tools/update.sh
+original/
+out/
+tools/brand/preview/

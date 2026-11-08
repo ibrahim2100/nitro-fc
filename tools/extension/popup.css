@@ -1,0 +1,17 @@
+:root{--bg:#0b1220;--card:#162744;--fg:#eaf2ff;--mut:#8ea3c7;--on:#2bd4a0;--off:#4a5a78}
+*{box-sizing:border-box}
+body{margin:0;width:280px;padding:14px;background:var(--bg);color:var(--fg);font:14px/1.5 -apple-system,"Segoe UI",Tahoma,sans-serif}
+header{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+h1{margin:0;font-size:18px}h1 span{font-size:11px;color:var(--mut);letter-spacing:2px;margin-inline-start:4px}
+#ver{margin:0;font-size:11px;color:var(--mut)}
+.row{display:flex;justify-content:space-between;align-items:center;background:var(--card);padding:12px 14px;border-radius:12px;cursor:pointer}
+#state{font-weight:600}
+.switch{position:relative;width:46px;height:26px;direction:ltr}
+.switch input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
+.switch i{position:absolute;inset:0;border-radius:13px;background:var(--off);transition:.2s;pointer-events:none}
+.switch i::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:.2s}
+.switch input:checked+i{background:var(--on)}
+.switch input:checked+i::after{left:23px}
+.switch input:focus-visible+i{outline:2px solid #fff;outline-offset:2px}
+#note{margin:10px 2px 0;font-size:12px;color:var(--mut)}
+.hint{margin:6px 2px 0;font-size:11px;color:var(--mut)}

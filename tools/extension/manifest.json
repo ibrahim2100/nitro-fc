@@ -1,0 +1,61 @@
+{
+  "manifest_version": 3,
+  "name": "__NAME__",
+  "version": "__VERSION__",
+  "description": "__DESC__",
+  "minimum_chrome_version": "111",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    },
+    "default_title": "__NAME__"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.fut.gg/*",
+    "https://*.futbin.com/*",
+    "https://*.futwiz.com/*",
+    "https://www.ea.com/*/ea-sports-fc/ultimate-team/web-app/*",
+    "https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.ea.com/*/ea-sports-fc/ultimate-team/web-app/*",
+        "https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*"
+      ],
+      "js": [
+        "bridge.js"
+      ],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    },
+    {
+      "matches": [
+        "https://www.ea.com/*/ea-sports-fc/ultimate-team/web-app/*",
+        "https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*"
+      ],
+      "js": [
+        "shim.js",
+        "paletools.js"
+      ],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ]
+}

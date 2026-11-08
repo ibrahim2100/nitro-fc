@@ -1,0 +1,23 @@
+{
+  "scriptName": "نيترو (Nitro)",
+  "versionSuffix": "-ar.1",
+  "forceLanguage": "ar",
+  "removePlugins": [
+    "snipe",
+    "autoSnipe"
+  ],
+  "removeHeaderLines": [
+    "@updateURL",
+    "@downloadURL",
+    "@grant GM_download"
+  ],
+  "brand": {
+    "ar": "نيترو",
+    "en": "Nitro",
+    "description": "Nitro - Arabic, without Snipe (unofficial build of Paletools)"
+  },
+  "removePluginMarkers": [
+    "paletools-donation",
+    "paletools-birthday"
+  ]
+}
